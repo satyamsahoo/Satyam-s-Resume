@@ -1,0 +1,60 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-container > div.header {
+  background-color: #f1f1f1;
+}
+
+hr{
+  color: #E7DCDC;
+}
+
+.header{
+  width: 100vw;
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+@media screen and (max-width:768px){
+  .intro, .tech, .edu, .exp, .project, .interest{
+    width: 100vw;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width:769px){
+  .intro, .tech, .edu, .exp, .project, .interest{
+    width: 46vw;
+    padding: 5px;
+  }
+
+}
+
+h2{
+  font-size: 1.5em;
+  opacity: 0.1;
+}
+
+h3 {
+  color: #EC7263;
+  font-size: 0.9em;
+}
+
+p,li{
+  font-size: 0.9em;
+}
+
+h3:before{
+  content: '//';
+  margin-right: 5px;
+}
+
+img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
